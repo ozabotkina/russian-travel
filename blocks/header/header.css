@@ -1,0 +1,9 @@
+.header {
+    margin: 28px 48px 48px 48px;
+    height: 52px;
+    min-width: 928px;
+    position:relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
