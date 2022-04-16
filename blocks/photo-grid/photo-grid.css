@@ -4,17 +4,19 @@
     grid-template-rows: auto;
     gap: 14px;
     width: 928px;
-    margin: 92px 48px;  
+    margin: 92px auto;  
 }
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
      grid-template-columns:repeat(4, 1fr);  
-     width: 1184px;  
+     width: 1184px; } 
  }
 
  @media screen and (max-width: 1024px) {
     .photo-grid {
      grid-template-columns:repeat(2, 1fr);   
-     width: 728px;  
- }
+     width: 720px; 
+     gap: 16px;
+    }
+}

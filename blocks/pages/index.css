@@ -34,4 +34,5 @@
 @import url(../../blocks/footer/__link/footer__link.css);
 
 @import url(../../blocks/header/__lang-link/_active/header__lang-link_active.css);
-@import url(../../blocks/intro/__list/_number/intro__list_number.css)
+@import url(../../blocks/intro/__list/_number/intro__list_number.css);
+@import url(../../blocks/places/place/__paragragh/place__paragraph.css);

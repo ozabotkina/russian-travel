@@ -1,0 +1,8 @@
+.place__title {
+    font-size: 72px;
+    line-height: 76px;
+    font-family: inter;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
