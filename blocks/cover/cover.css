@@ -1,0 +1,10 @@
+.cover {
+    min-width: 100%;
+    max-width: 1184px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cover";
+}
+

@@ -1,0 +1,9 @@
+.cover__titles {
+    margin: 0;
+    grid-area: cover;
+    justify-self: center;
+    z-index: 3;
+    width: 560px;
+    justify-self: center;
+    align-self: center;}
+
