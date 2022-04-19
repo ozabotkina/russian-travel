@@ -5,5 +5,14 @@
     text-decoration: none;
     margin-left: 16px;
     color: #e5e5e5;
+
 }
     
+
+@media screen and (max-width: 752px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        
+ }
+}

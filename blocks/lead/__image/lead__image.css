@@ -1,7 +1,6 @@
 .lead__image {
-    width: 928px;
-    height: 580px;
+    width: 100%;
     display: inline-flex;
     margin: auto;
-
+    justify-self: center;
 }

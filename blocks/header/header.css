@@ -1,9 +1,20 @@
 .header {
-    margin: 28px 48px 48px 48px;
     height: 52px;
-    min-width: 928px;
+    max-width: 1184px;
+    min-width: calc(100%-96px);
+    margin: 28px 48px 48px;
     position:relative;
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:752px) {
+    .header {
+        height:42px;
+        margin: 16px 16px 48px;
+        width: calc(100%-32px);
+    }
 }
