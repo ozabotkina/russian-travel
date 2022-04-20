@@ -1,6 +1,37 @@
 .intro {
-    margin: 92px auto 0; 
-    width: 928px;
-    height:429px;  
-    
+    margin: 92px auto 0 0;
+    max-width: 690px;     
 }
+
+
+
+@media (min-width:1224px) {
+    .intro {
+    margin-left:calc((100% - 984px)/2);
+    }  
+}
+
+@media (min-width: 1024px) and (max-width:1223px)  {
+    .intro {
+        margin-left:calc((100% - 928px)/2);
+    }
+}
+
+
+@media (max-width:768px) and (min-width:753px){
+    .intro {
+        margin: 88px 24px 0px;
+        width:calc(100% - 48px);
+    }
+}
+
+@media (max-width:752px) {
+    .intro {
+        margin: 64px 16px 0px;
+        width: calc(100% - 32px);
+    }
+}
+
+
+
+

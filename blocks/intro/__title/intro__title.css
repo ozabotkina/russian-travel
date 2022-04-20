@@ -3,8 +3,17 @@
     line-height: 58px;
     font-family: inter;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin: 0;
     display: block;
-    width: 690px;
+    width: 100%;
+}
+
+@media (max-width:752px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 100%;
+    }
+
 }
