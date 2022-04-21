@@ -1,4 +1,15 @@
 .place__image {
-    width: 440px;
-    height: 440px;
+    width: 100%;
+    max-width: 460px;
+    justify-self: start;
+    align-items: center;
+}
+
+@media (max-width: 550px) {
+    
+    .place__image {
+       display: block;
+       margin: auto;
+        
+}
 }

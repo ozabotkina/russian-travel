@@ -31,9 +31,9 @@
 @import url(../../blocks/footer/footer.css);
 @import url(../../blocks/footer/__copyright/footer__copyright.css);
 @import url(../../blocks/footer/__link/footer__link.css);
-
 @import url(../../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../../blocks/intro/__list/_number/intro__list_number.css);
-@import url(../../blocks/places/place/__paragragh/place__paragraph.css);
 @import url(../../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../../blocks/cover/__titles/cover__titles.css);
+@import url(../../blocks/places/place/__paragraphs/place__paragraphs.css);
+@import url(../../blocks/places/place/__paragragh/place__paragraph.css);

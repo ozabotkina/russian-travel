@@ -1,6 +1,12 @@
 .place__paragraphs {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+
+@media (max-width: 550px) {
     
-   
+    .place__paragraphs {
+        margin: 32px 16px 32px;
+        width: calc(100% - 32px);
+}
 }
