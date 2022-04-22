@@ -8,9 +8,10 @@
    
 }
 
-@media (min-width: 1024px) and (max-width:1223px)  {
+@media (min-width: 1000px) and (max-width:1223px)  {
     .lead {
-        width: 928px;}
+        margin: 0 auto;
+        width: calc(100% - 96px);}
 }
 
 

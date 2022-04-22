@@ -2,6 +2,7 @@
     justify-self: start;
     align-self: end;
     margin: 0;
+    
 }
 
 @media (max-width: 550px) {

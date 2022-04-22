@@ -11,14 +11,14 @@
     }  
 }
 
-@media (min-width: 1024px) and (max-width:1223px)  {
+@media (min-width: 1001px) and (max-width:1223px)  {
     .intro {
         margin-left: calc((100% - 928px)/2);
     }
 }
 
 
-@media (max-width: 1023px) and (min-width: 551px){
+@media (max-width: 1000px) and (min-width: 551px){
     .intro {
         margin: 88px 24px 0px;
         width: calc(100% - 48px);

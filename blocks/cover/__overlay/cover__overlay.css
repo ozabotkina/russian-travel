@@ -12,6 +12,7 @@ left:0;
 display:flex;
 margin:auto;
 color: #FFFFFF;
+cursor: pointer;
 }
 
 .cover:hover .cover__overlay {
