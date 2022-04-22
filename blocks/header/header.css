@@ -3,14 +3,23 @@
     max-width: 1184px;
     min-width: calc(100%-96px);
     margin: 28px auto 48px;
-    position:relative;
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: flex-end;
     box-sizing: border-box;
 }
 
+@media (min-width: 1224px) {
+    .header {
+        background-color: brown;
+        margin: 28px auto 56px;  
+}
+}
 
+@media (max-width:1223px) and (min-width:753px) {
+    
+}
 
 @media (max-width:752px) {
     .header {

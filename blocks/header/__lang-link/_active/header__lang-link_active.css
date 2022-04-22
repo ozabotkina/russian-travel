@@ -1,5 +1,9 @@
 
 
 .header__lang-link_active {
-text-decoration: underline;
+border-bottom: 2px solid #FFFFFF;
+box-sizing: content-box;
+margin-bottom: 4px;
+padding: 0;
+
 }
