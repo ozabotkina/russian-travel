@@ -1,11 +1,24 @@
 .cover {
-    min-width: 100%;
+    width: 100%;
     max-width: 1184px;
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "cover";
-    margin-bottom: 92px;
+    margin:0 auto 92px;
 }
 
+
+
+ @media (max-width: 1000px) and (min-width: 750px) {
+    .cover {
+        margin:0 auto 88px;
+    }
+}
+
+@media (max-width: 750px) {
+    .cover {
+        margin:0 auto 64px;
+    }
+ }

@@ -5,7 +5,13 @@ height: 100%;
 z-index: 2;
 justify-self: start;
 align-self: start;
-grid-area: cover;
+text-decoration: none;
+position: absolute;
+top:0;
+left:0;
+display:flex;
+margin:auto;
+color: #FFFFFF;
 }
 
 .cover:hover .cover__overlay {

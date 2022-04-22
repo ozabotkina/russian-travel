@@ -1,10 +1,13 @@
 .cover__titles {
-    margin: 0;
-    grid-area: cover;
-    justify-self: center;
+    margin: auto;
     z-index: 3;
     width: 560px;
-    justify-self: center;
-    align-self: center;
+    
 }
 
+@media (max-width:752px) {
+    .cover__titles {
+        width: 288px;
+    }
+
+} 

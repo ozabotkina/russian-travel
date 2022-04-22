@@ -11,3 +11,10 @@
     padding: 0;
     
 }
+
+@media (max-width:750px) {
+    .footer__copyright {
+        position: relative;
+        margin: 16px auto 0 0;
+}
+}

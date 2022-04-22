@@ -6,3 +6,13 @@
     color: #fff;
     margin: 0 18px 0 0;
 }
+
+
+@media (max-width:750px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 auto 32px 0;
+       
+    }
+}
