@@ -9,22 +9,13 @@
     padding: 0;
     margin-top: 33px;
 }
-@media (min-width: 753px) {
-    .intro__list {
-        margin-top: 33px;
-    }
-
-}
-
-
-
 
 @media (max-width:752px) {
-    .intro__title {
+    .intro__list {
         font-size: 32px;
         line-height: 35px;
         width: 100%;
-        margin-top: 33px;
+        margin-top: 34px;
     }
 
 }
