@@ -5,19 +5,19 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-   
 }
 
 @media (min-width: 1000px) and (max-width:1223px)  {
     .lead {
-        margin: 0 auto;
-        width: calc(100% - 96px);}
+        width: calc(100% - 96px);
+}
 }
 
 
 @media (min-width: 1224px)  {
     .lead {
-       width: 984px;}
+       width: 984px;
+ }
 }
 
 

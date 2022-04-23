@@ -11,11 +11,11 @@
 @media (max-width:752px) {
     .lead__caption {
     margin-left: 16px;
-    }
+}
 }
 
 @media (max-width:1024px) and (min-width:753px) {
     .lead__caption {
     margin-left: 24px;
-    }
+}
 }

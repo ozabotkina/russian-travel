@@ -4,19 +4,20 @@
 }
 
 
-@media (min-width: 1224px)  {
+@media (min-width: 1224px) {
    .places {
-      width: 984px;}
+      width: 984px;
+   }
 }
 
-@media (max-width: 1224px) and (min-width: 1024px){
+@media (max-width: 1223px) and (min-width: 1001px){
    .places {
        margin: 0 48px;
        width: calc(100% - 96px);
    }
 }
 
-@media (max-width: 1023px) and (min-width: 551px){
+@media (max-width: 1000px) and (min-width: 550px){
    .places {
        margin: 0 24px;
        width: calc(100% - 48px);
