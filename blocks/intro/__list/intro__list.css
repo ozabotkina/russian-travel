@@ -1,19 +1,19 @@
 .intro__list {
     font-size: 12px;
     line-height: 18px;
-    font-family: inter;
+    font-family: "inter", sans-serif;
     font-weight: bold;
     text-align: left;
     margin: 0;
     list-style-type: none;
     padding: 0;
     margin-top: 33px;
+
 }
 
 @media (max-width:752px) {
     .intro__list {
-        font-size: 32px;
-        line-height: 35px;
+
         width: 100%;
         margin-top: 34px;
     }

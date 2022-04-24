@@ -1,7 +1,6 @@
 .footer {
     width: calc(100% - 96px);
     margin: 0 auto 24px;
-    height: 18px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;

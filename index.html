@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./blocks/pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
 </head>
@@ -11,11 +11,14 @@
   
         <header class="header">
             <img class="header__logo" src="images/__logo.svg" alt="лого">
-            <a class="header__lang-link link" href="#">En</a>
+            <div class="header__lang-links">
             <a class="header__lang-link header__lang-link_active link" href="index.html">Ru</a>
+            <a class="header__lang-link link" href="#">En</a>
+
+            </div>
         </header>
 
-        <div class="content">
+        <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках 
@@ -37,20 +40,20 @@
                 </ul>    
             </section>
 
-            <div class="photo-grid">
-                <img class="photo-grid__item" src="images/__item-11.png" alt="">
-                <img class="photo-grid__item" src="images/__item-10.png" alt="">
-                <img class="photo-grid__item" src="images/__item-9.png" alt="">
-                <img class="photo-grid__item" src="images/__item-8.png" alt="">
-                <img class="photo-grid__item" src="images/__item-7.png" alt="">
-                <img class="photo-grid__item" src="images/__item-6.png" alt="">
-                <img class="photo-grid__item" src="images/__item-5.png" alt="">
-                <img class="photo-grid__item" src="images/__item-4.png" alt="">
-                <img class="photo-grid__item" src="images/__item-3.png" alt="">
-                <img class="photo-grid__item" src="images/__item-2.png" alt="">
-                <img class="photo-grid__item" src="images/__item-1.png" alt="">
-                <img class="photo-grid__item" src="images/__item.png" alt="">
-            </div>
+            <section class="photo-grid">
+                <img class="photo-grid__item" src="images/__item-11.png" alt="электричка">
+                <img class="photo-grid__item" src="images/__item-10.png" alt="горы">
+                <img class="photo-grid__item" src="images/__item-9.png" alt="волк">
+                <img class="photo-grid__item" src="images/__item-8.png" alt="лес">
+                <img class="photo-grid__item" src="images/__item-7.png" alt="байкал">
+                <img class="photo-grid__item" src="images/__item-6.png" alt="пляж">
+                <img class="photo-grid__item" src="images/__item-5.png" alt="скалы">
+                <img class="photo-grid__item" src="images/__item-4.png" alt="переход">
+                <img class="photo-grid__item" src="images/__item-3.png" alt="сера">
+                <img class="photo-grid__item" src="images/__item-2.png" alt="вулкан">
+                <img class="photo-grid__item" src="images/__item-1.png" alt="замерзший берег">
+                <img class="photo-grid__item" src="images/__item.png" alt="туман">
+            </section>
             <section class="places">
 
                 <div class="place">
@@ -153,7 +156,7 @@
                 <p class="footer__copyright">© 2022. Оля Бавыкина</p>
            
             </footer>
-        </div>
+        </main>
 
 
 

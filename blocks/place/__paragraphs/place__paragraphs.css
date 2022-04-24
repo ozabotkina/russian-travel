@@ -6,7 +6,7 @@
 @media (max-width: 550px) {
     
     .place__paragraphs {
-        margin: 32px auto 32px;
+        margin: 32px auto 0px;
         width: calc(100% - 32px);
 }
 }

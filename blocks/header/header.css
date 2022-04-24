@@ -1,12 +1,11 @@
 .header {
-    height: 52px;
     max-width: 1184px;
     min-width: calc(100% - 96px);
     margin: 28px auto 48px;
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
 }
 
@@ -30,7 +29,6 @@
 
 @media (max-width:550px) {
     .header {
-        height:42px;
         margin: 16px auto 48px;
         width: calc(100% - 32px);
     }
